@@ -1,0 +1,11 @@
+h1 {
+  color: var(--brand-txt);
+  background-color: var(--brand);
+  cursor: pointer;
+}
+
+h1:hover {
+  font-size: 3em;
+  color: var(--brand);
+  background-color: var(--brand-txt);
+}
