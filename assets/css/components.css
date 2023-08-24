@@ -1,15 +1,27 @@
-img.photo-1 {
+/* 50% + 50% + 10px + 10px + 10px + 10px + 10px + 10px + 10px + 10px*/
+p.text-1 {
+  box-sizing: border-box;
+  width: 50%;
   float: left;
+  padding: 0 10px;
+  margin-bottom: 50px;;
 }
 
-img.photo-2 {
-  float: right
+p.text-2 {
+  box-sizing: border-box;
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+  margin-bottom: 50px;
 }
 
-.text-1 {
-  background-color: #f11;
+p.text-3 {
+  box-sizing: border-box;
+  float: left;
+  width: 33.33%;
+  padding: 0 10px
 }
 
-.text-2 {
-  background-color: #ee2;
+main {
+  background-color: #f33;
 }
